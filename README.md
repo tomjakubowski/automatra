@@ -1,0 +1,1 @@
+cellular automata web service built on Sinatra
