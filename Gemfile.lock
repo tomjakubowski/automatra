@@ -1,9 +1,14 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    bluecloth (2.2.0)
+    chunky_png (1.2.5)
     daemons (1.1.4)
     diff-lcs (1.1.3)
     eventmachine (0.12.10)
+    json (1.6.1)
+    oily_png (1.0.2)
+      chunky_png (~> 1.2.1)
     rack (1.3.5)
     rack-protection (1.1.4)
       rack
@@ -31,6 +36,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bluecloth
+  json
+  oily_png
   rspec (~> 2.7)
   shotgun
   sinatra
