@@ -7,6 +7,10 @@ gem 'json'
 gem 'oily_png'
 gem 'bluecloth'
 
+group :development do
+  gem 'heroku'
+end
+
 group :test do
   gem 'rspec', '~> 2.7'
 end

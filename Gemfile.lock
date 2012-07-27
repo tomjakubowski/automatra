@@ -1,17 +1,33 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    addressable (2.2.8)
     bluecloth (2.2.0)
     chunky_png (1.2.5)
     daemons (1.1.4)
     diff-lcs (1.1.3)
     eventmachine (0.12.10)
+    excon (0.14.0)
+    heroku (2.26.6)
+      heroku-api (~> 0.2.4)
+      launchy (>= 0.3.2)
+      netrc (~> 0.7.2)
+      rest-client (~> 1.6.1)
+      rubyzip
+    heroku-api (0.2.4)
+      excon (~> 0.14.0)
     json (1.6.1)
+    launchy (2.1.0)
+      addressable (~> 2.2.6)
+    mime-types (1.18)
+    netrc (0.7.4)
     oily_png (1.0.2)
       chunky_png (~> 1.2.1)
     rack (1.3.5)
     rack-protection (1.1.4)
       rack
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
     rspec (2.7.0)
       rspec-core (~> 2.7.0)
       rspec-expectations (~> 2.7.0)
@@ -20,6 +36,7 @@ GEM
     rspec-expectations (2.7.0)
       diff-lcs (~> 1.1.2)
     rspec-mocks (2.7.0)
+    rubyzip (0.9.8)
     shotgun (0.9)
       rack (>= 1.0)
     sinatra (1.3.1)
@@ -37,6 +54,7 @@ PLATFORMS
 
 DEPENDENCIES
   bluecloth
+  heroku
   json
   oily_png
   rspec (~> 2.7)
