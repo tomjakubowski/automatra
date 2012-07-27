@@ -9,6 +9,7 @@ gem 'bluecloth'
 
 group :development do
   gem 'heroku'
+  gem 'rake'
 end
 
 group :test do
