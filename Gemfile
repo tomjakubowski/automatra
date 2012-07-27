@@ -1,6 +1,6 @@
 source :rubygems
 
-gem 'sinatra'
+gem 'sinatra', '~> 1.3'
 gem 'thin'
 gem 'shotgun'
 gem 'json'
